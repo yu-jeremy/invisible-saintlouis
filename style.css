@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen');
 @import url('https://fonts.googleapis.com/css?family=Abel');
-@import url('https://fonts.googleapis.com/css?family=Quicksand|Rubik');
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Rubik|Overpass');
 
 * {
   box-sizing: border-box;
@@ -10,7 +10,7 @@
 body {
   background-color:#F25E35;
   font-size: 18px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Overpass', sans-serif;
   color: #302B27;
 }
 
@@ -119,14 +119,27 @@ body {
 }
 
 .pure-menu-link:hover {
-  background-color: white;
+  background-color: #F2F4F3;
   color: black;
 }
 
 #home_active {
   opacity: 0.8;
-  background-color: white;
+  background-color: #F2F4F3;
   color: black;
+}
+
+#banner {
+  text-align: center;
+}
+
+#class_title {
+  opacity: 0.65;
+}
+
+#footer {
+  background-color: #302B27;
+  color: #F2F4F3;
 }
 
 
