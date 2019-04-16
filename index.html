@@ -10,6 +10,9 @@
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
         
+        <!-- Animate on Scroll CSS -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
         <!-- my own CSS -->
         <link rel="stylesheet" href="style.css">
         
@@ -18,14 +21,16 @@
     <body>
         <div class="pure-menu pure-menu-horizontal">
             <ul class="pure-menu-list">
-                <li class="pure-menu-item"><a href="" class="pure-menu-link">HOME</a></li>
-                <li class="pure-menu-item"><a href="" class="pure-menu-link">PEOPLE</a></li>
-                <li class="pure-menu-item"><a href="" class="pure-menu-link">POWER</a></li>
-                <li class="pure-menu-item"><a href="" class="pure-menu-link">PLACE</a></li>
+                <li class="pure-menu-item"><a id="home_active" href="index.html" class="pure-menu-link">HOME</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">ABOUT</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">PEOPLE</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">POWER</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">PLACE</a></li>
             </ul>
         </div>
+
         <div class="timeline">
-            <div class="container left">
+            <div data-aos="fade-right" class="container left">
               <div class="content">
                 <h2>1991: EMASS Founded</h2>
                 <p class="timeline_description">
@@ -36,7 +41,7 @@
                 <button class="pure-button pure-button-primary ">Explore</button>
               </div>
             </div>
-            <div class="container right">
+            <div data-aos="fade-left" class="container right">
               <div class="content">
                 <h2>2000: EMASS and the St. Louis Courts</h2>
                 <p>According to a St. Louis Post-Dispatch article written by Jennifer Mann in 2012, EMASS 
@@ -53,7 +58,7 @@
                 <button id="explore_2000" class="pure-button pure-button-primary">Explore</button>
               </div>
             </div>
-            <div class="container left">
+            <div data-aos="fade-right" class="container left">
                 <div class="content">
                     <h2>2001: To Bail or Not to Bail?</h2>
                     <p> 
@@ -66,16 +71,17 @@
                     <button class="pure-button pure-button-primary">Explore</button>
                 </div>
             </div>
-            <div class="container right">
+            <div data-aos="fade-left" class="container right">
                 <div class="content">
                     <h3>2009 - 2010: Alcohol Monitoring Contract</h3>
                     <p class="timeline_description">
-
+                        EMASS was awarded a contract from the Missouri Department of Corrections / St. Louis County
+                        Justice Services to oversee a new alcohol monitoring program.
                     </p>
                     <button class="pure-button pure-button-primary">Explore</button>
                 </div>
             </div>
-            <div class="container left">
+            <div data-aos="fade-right" class="container left">
                 <div class="content">
                     <h2>2012: St. Louis Post-Dispatch Article</h2>
                     <p>
@@ -91,5 +97,6 @@
     </body>
     <script src="script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
 </html>

@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Rubik');
 
 * {
   box-sizing: border-box;
@@ -6,8 +8,9 @@
 
 /* Set a background color */
 body {
-  background-color:#576CA8;
-  font-family: 'Oxygen', sans-serif;
+  background-color:#F25E35;
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
   color: #302B27;
 }
 
@@ -23,7 +26,7 @@ body {
   content: '';
   position: absolute;
   width: 6px;
-  background-color: white;
+  background-color: #F2F4F3;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -45,7 +48,7 @@ body {
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: white;
+  background-color: #F2F4F3;
   border: 4px solid black;
   top: 15px;
   border-radius: 50%;
@@ -71,9 +74,9 @@ body {
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid white;
+  border: medium solid #F2F4F3;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-color: transparent transparent transparent #F2F4F3;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -85,9 +88,9 @@ body {
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid white;
+  border: medium solid #F2F4F3;
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent #F2F4F3 transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -98,18 +101,34 @@ body {
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: white;
+  background-color: #F2F4F3;
   position: relative;
   border-radius: 6px;
 }
 
 .pure-button {
-  background-color: #274690;
+  background-color: #153243;
+}
+
+.pure-button:hover {
+  background-color: #3D7499;
 }
 
 .pure-menu-link {
+  color: white;
+}
+
+.pure-menu-link:hover {
+  background-color: white;
   color: black;
 }
+
+#home_active {
+  opacity: 0.8;
+  background-color: white;
+  color: black;
+}
+
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
