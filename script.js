@@ -23,11 +23,11 @@ window.addEventListener('DOMContentLoaded', function () {
             explore_2000.textContent = "Explore";
             $(explore_2000).css("background-color", "#284B63");
         }
-        
-        
-       
     });
 
-
     
+
+    anime({
+        targets:
+    });
 });
