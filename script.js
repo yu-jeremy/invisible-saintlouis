@@ -22,7 +22,14 @@ window.addEventListener('DOMContentLoaded', function () {
                 backgroundColor: "#153243",
                 color: "white"
             }, 1000);
-            situate_btn.backgroundColor = 
+            $(situate_btn).hover(function() {
+                $(this).css({
+                    "background-color":"#3D7499", 
+                    "color":"white"
+                });
+            }, function() {
+                $(this).css("background-color", "#153243")
+            });
             $(document.body).animate({
                 backgroundColor: "#F15025",
                 color: "#191919"
@@ -31,6 +38,14 @@ window.addEventListener('DOMContentLoaded', function () {
             $(emass_timeline).fadeOut(1500);
             header.textContent = " A History of Privatized Probation Companies and Services"
             situate_btn.textContent = "Zoom In"
+            $(situate_btn).hover(function() {
+                $(this).css({
+                    "background-color": "#BFC3BA", 
+                    "color":"#191919"
+                });
+            }, function() {
+                $(this).css("background-color", "white");
+            });
             $(situate_btn).animate({
                 backgroundColor: "white",
                 color: "#191919"
