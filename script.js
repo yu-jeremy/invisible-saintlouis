@@ -6,10 +6,17 @@ window.addEventListener('DOMContentLoaded', function () {
     var containers = document.getElementsByClassName("container");
     var timeline_2000 = document.getElementById("hidden_2000");
     var explore_2000 = document.getElementById("explore_2000");
+    var buttons = document.getElementsByClassName("pure-button");
 
     Array.from(containers).forEach(
         function (element) {
             element.setAttribute("data-aos-duration", "1250")
+        }
+    );
+
+    Array.from(buttons).forEach(
+        function (element) {
+            $(element).css("border-radius", "10px");
         }
     );
 

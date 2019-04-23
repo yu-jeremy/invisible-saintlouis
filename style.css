@@ -8,10 +8,10 @@
 
 /* Set a background color */
 body {
-  background-color:#F25E35;
-  font-size: 18px;
-  font-family: 'Overpass', sans-serif;
-  color: #302B27;
+  background-color: #F15025; 
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  color: #191919;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -101,7 +101,7 @@ body {
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: #F2F4F3;
+  background-color: #FFFFFF;
   position: relative;
   border-radius: 6px;
 }
@@ -120,13 +120,13 @@ body {
 
 .pure-menu-link:hover {
   background-color: #F2F4F3;
-  color: black;
+  color: #191919;
 }
 
 #home_active {
   opacity: 0.8;
   background-color: #F2F4F3;
-  color: black;
+  color: #191919;
 }
 
 #banner {
@@ -135,11 +135,17 @@ body {
 
 #class_title {
   opacity: 0.65;
+  font-size: 30px;
+}
+
+#header {
+  font-size: 30px;
 }
 
 #footer {
-  background-color: #302B27;
+  background-color: #191919;
   color: #F2F4F3;
+  bottom: 0 auto;
 }
 
 
