@@ -148,6 +148,14 @@ body {
   bottom: 0 auto;
 }
 
+#cover {
+  text-align: center;
+}
+
+#broad_timeline {
+  
+}
+
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {

@@ -15,7 +15,9 @@
 
         <!-- my own CSS -->
         <link rel="stylesheet" href="style.css">
-        
+
+        <!-- JQuery UI CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" rel="stylesheet">
     </head>
     
     <body>
@@ -31,14 +33,13 @@
         </div>
 
         <div  id="banner">
-            <h1 id="header"><span id="class_title">In\Visible St. Louis:</span> A History of Eastern Missouri Alternative Sentencing Services</h1>
+            <h1><span id="class_title">In\Visible St. Louis:</span><span id="header"> A History of Eastern Missouri Alternative Sentencing Services</span></h1>
         </div>
 
         <div id="cover">
-            
+            <button id="situate_button" class="pure-button pure-button-primary">Situate</button>
         </div>
-
-        <div class="timeline">
+        <div id="emass_timeline" class="timeline">
             <div class="container left">
                 <div class="content">
                     <h2>1991: EMASS Founded</h2>
@@ -51,7 +52,7 @@
                 </div>
             </div>
             <div data-aos="fade-left" class="container right">
-              <div class="content">
+            <div class="content">
                 <h2>2000: EMASS and the St. Louis Courts</h2>
                 <p>According to a St. Louis Post-Dispatch article written by Jennifer Mann in 2012, EMASS 
                     signed a contract in July 2000 with the St. Louis Circuit Court to become a 
@@ -65,7 +66,7 @@
                     in the initial contract (i.e. pre-trial supervision services).
                 </p>
                 <button id="explore_2000" class="pure-button pure-button-primary">Explore</button>
-              </div>
+            </div>
             </div>
             <div data-aos="fade-right" class="container left">
                 <div class="content">
@@ -101,16 +102,16 @@
                     <button class="pure-button pure-button-primary">Explore</button>
                 </div>
             </div>
-          </div>
+        </div>
 
+        <div id="broad_timeline" class="timeline">
 
-          <div id="footer">
-              <h2>Sociology 4930: In\Visible St. Louis</h2>
-          </div>
-        
+        </div>
+       
     </body>
     <script src="script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="node_modules/animejs/lib/anime.min.js"></script> 
     
