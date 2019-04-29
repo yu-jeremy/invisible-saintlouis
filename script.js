@@ -4,6 +4,9 @@ window.addEventListener('DOMContentLoaded', function () {
 
     AOS.init();
     var containers = document.getElementsByClassName("container");
+    var content = document.getElementsByClassName("content");
+    var leftArrows = document.getElementsByClassName("left::before");
+    var rightArrows = document.getElementsByClassName("right::before");
 
     var timeline_2000 = document.getElementById("hidden_2000");
     var explore_2000 = document.getElementById("explore_2000");
@@ -26,6 +29,7 @@ window.addEventListener('DOMContentLoaded', function () {
         if (situate_btn.textContent == "Zoom In") {
             header.textContent = " A History of Eastern Missouri Alternative Sentencing Services"
             $(emass_timeline).fadeIn(1500);
+            
             broad_timeline.hidden = true;
             situate_btn.textContent = "Situate";
             $(situate_btn).animate({
@@ -44,8 +48,55 @@ window.addEventListener('DOMContentLoaded', function () {
                 backgroundColor: "#F15025",
                 color: "#191919"
             }, 1000);
+            var newContentStyles = {
+                "background-color": "#F2F4F3",
+                "padding": "20px 30px",
+                "position": "relative",
+                "border-radius": "6px"
+            }
+            Array.from(content).forEach(
+                function (element) {
+                    $(element).css(newContentStyles);
+                }
+            );
+            
         } else if (situate_btn.textContent == "Situate") {
+
             $(emass_timeline).fadeOut(1500);
+            var newContentStyles = {
+                "background-color": "black",
+                "padding": "20px 30px",
+                "position": "relative",
+                "border-radius": "6px"
+            }
+            Array.from(content).forEach(
+                function (element) {
+                    $(element).css(newContentStyles);
+                }
+            );
+
+            var newArrowStyles = {
+                "content": " ",
+                "height": 0,
+                "position": "absolute",
+                "top": "22px",
+                "width": 0,
+                "z-index": 1,
+                "right": "30px",
+                "border": "medium solid black",
+                "border-width": "10px 0 10px 10px",
+                "border-color": "transparent transparent transparent black"
+            };
+            Array.from(rightArrows).forEach(
+                function (element) {
+                    $(element).css(newArrowStyles);
+                }
+            )
+            Array.from(leftArrows).forEach(
+                function (element) {
+                    $(element).css(newArrowStyles);
+                }
+            )
             broad_timeline.hidden = false;
             header.textContent = " A History of Privatized Probation Companies and Services"
             situate_btn.textContent = "Zoom In"
@@ -65,6 +116,7 @@ window.addEventListener('DOMContentLoaded', function () {
                 backgroundColor: "#3E3244",
                 color: "white"
             }, 1000);
+            
         }
     });
 
