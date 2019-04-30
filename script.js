@@ -28,7 +28,7 @@ window.addEventListener('DOMContentLoaded', function () {
         $(class_title).css("opacity", 0.65);
         if (situate_btn.textContent == "Zoom In") {
             header.textContent = " A History of Eastern Missouri Alternative Sentencing Services"
-            $(emass_timeline).fadeIn(1500);
+            emass_timeline.hidden = false;
             
             broad_timeline.hidden = true;
             situate_btn.textContent = "Situate";
@@ -62,18 +62,7 @@ window.addEventListener('DOMContentLoaded', function () {
             
         } else if (situate_btn.textContent == "Situate") {
 
-            $(emass_timeline).fadeOut(1500);
-            var newContentStyles = {
-                "background-color": "black",
-                "padding": "20px 30px",
-                "position": "relative",
-                "border-radius": "6px"
-            }
-            Array.from(content).forEach(
-                function (element) {
-                    $(element).animate(newContentStyles);
-                }
-            );
+            emass_timeline.hidden = true;
 
             var newArrowStyles = {
                 "content": " ",
@@ -98,7 +87,18 @@ window.addEventListener('DOMContentLoaded', function () {
                 }
             )
 
-            $(broad_timeline).show();
+            broad_timeline.hidden = false;
+            var newContentStyles = {
+                "background-color": "black",
+                "padding": "20px 30px",
+                "position": "relative",
+                "border-radius": "6px"
+            }
+            Array.from(content).forEach(
+                function (element) {
+                    $(element).animate(newContentStyles);
+                }
+            );
             header.textContent = " A History of Privatized Probation Companies and Services"
             situate_btn.textContent = "Zoom In"
             $(situate_btn).hover(function() {
