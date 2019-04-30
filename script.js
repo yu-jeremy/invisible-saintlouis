@@ -71,7 +71,7 @@ window.addEventListener('DOMContentLoaded', function () {
             }
             Array.from(content).forEach(
                 function (element) {
-                    $(element).css(newContentStyles);
+                    $(element).animate(newContentStyles);
                 }
             );
 
@@ -97,7 +97,8 @@ window.addEventListener('DOMContentLoaded', function () {
                     $(element).css(newArrowStyles);
                 }
             )
-            broad_timeline.hidden = false;
+
+            $(broad_timeline).show();
             header.textContent = " A History of Privatized Probation Companies and Services"
             situate_btn.textContent = "Zoom In"
             $(situate_btn).hover(function() {
@@ -125,6 +126,7 @@ window.addEventListener('DOMContentLoaded', function () {
             element.setAttribute("data-aos-duration", "1250")
         }
     );
+
 
     Array.from(buttons).forEach(
         function (element) {
