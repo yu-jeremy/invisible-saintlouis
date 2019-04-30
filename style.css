@@ -9,7 +9,7 @@
 /* Set a background color */
 body {
   background-color: #F15025; 
-  font-size: 14px;
+  font-size: 15px;
   font-family: 'Arial', sans-serif;
   color: #191919;
 }
@@ -19,6 +19,7 @@ body {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
+  margin-bottom: 7%;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -143,13 +144,28 @@ body {
 }
 
 #footer {
+  padding: 1%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: #191919;
   color: #F2F4F3;
-  bottom: 0 auto;
+  text-align: center;
+  z-index: 2;
 }
 
 #cover {
   text-align: center;
+}
+
+#certificate {
+  width: 100%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */

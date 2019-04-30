@@ -5,9 +5,6 @@ window.addEventListener('DOMContentLoaded', function () {
     AOS.init();
     var containers = document.getElementsByClassName("container");
     var content = document.getElementsByClassName("content");
-    var leftArrows = document.getElementsByClassName("left::before");
-    var rightArrows = document.getElementsByClassName("right::before");
-
     var timeline_2000 = document.getElementById("hidden_2000");
     var explore_2000 = document.getElementById("explore_2000");
 
@@ -22,16 +19,22 @@ window.addEventListener('DOMContentLoaded', function () {
     var header = document.getElementById("header");
     var class_title = document.getElementById("class_title");
 
-    broad_timeline.hidden = true;
+    var broad_timeline_1997 = document.getElementById("hidden_broad_1997");
+    var footer = document.getElementById("footer");
 
+    broad_timeline.hidden = true;
+    
     situate_btn.addEventListener("click", function() {  
         $(class_title).css("opacity", 0.65);
         if (situate_btn.textContent == "Zoom In") {
             header.textContent = " A History of Eastern Missouri Alternative Sentencing Services"
             emass_timeline.hidden = false;
-            
             broad_timeline.hidden = true;
             situate_btn.textContent = "Situate";
+            $(footer).animate({
+                backgroundColor: "#191919",
+                color: "white"
+            });
             $(situate_btn).animate({
                 backgroundColor: "#153243",
                 color: "white"
@@ -63,36 +66,17 @@ window.addEventListener('DOMContentLoaded', function () {
         } else if (situate_btn.textContent == "Situate") {
 
             emass_timeline.hidden = true;
-
-            var newArrowStyles = {
-                "content": " ",
-                "height": 0,
-                "position": "absolute",
-                "top": "22px",
-                "width": 0,
-                "z-index": 1,
-                "right": "30px",
-                "border": "medium solid black",
-                "border-width": "10px 0 10px 10px",
-                "border-color": "transparent transparent transparent black"
-            };
-            Array.from(rightArrows).forEach(
-                function (element) {
-                    $(element).css(newArrowStyles);
-                }
-            )
-            Array.from(leftArrows).forEach(
-                function (element) {
-                    $(element).css(newArrowStyles);
-                }
-            )
-
             broad_timeline.hidden = false;
+            $(footer).css({
+                "background-color": "#F2F4F3",
+                "color": "black"
+            });
             var newContentStyles = {
-                "background-color": "black",
+                "background-color": "#F2F4F3",
                 "padding": "20px 30px",
                 "position": "relative",
-                "border-radius": "6px"
+                "border-radius": "6px",
+                "color": "black"
             }
             Array.from(content).forEach(
                 function (element) {
@@ -114,8 +98,8 @@ window.addEventListener('DOMContentLoaded', function () {
                 color: "#191919"
             }, 1000);
             $(document.body).animate({
-                backgroundColor: "#3E3244",
-                color: "white"
+                backgroundColor: "#2E2235",
+                color: "#F2F4F3"
             }, 1000);
             
         }
@@ -127,19 +111,29 @@ window.addEventListener('DOMContentLoaded', function () {
         }
     );
 
-
     Array.from(buttons).forEach(
         function (element) {
             $(element).css("border-radius", "10px");
         }
     );
 
+    explore_broad_1997.addEventListener("click", function () {
+        if (this.textContent == "Explore") {
+            broad_timeline_1997.removeAttribute("hidden");
+            this.textContent = "See Less";
+            $(this).css("background-color", "red");
+        } else if (this.textContent == "See Less") {
+            broad_timeline_1997.hidden = true;
+            this.textContent = "Explore";
+            $(this).css('background-color', "#284B63");
+        }
+    })
     explore_2000.addEventListener("click", function () {
         if (explore_2000.textContent == "Explore") {
             timeline_2000.removeAttribute("hidden");
             explore_2000.textContent = "See Less";
             $(explore_2000).css("background-color", "red");
-        } else if (explore_2000.textContent = "See Less") {
+        } else if (explore_2000.textContent == "See Less") {
             timeline_2000.hidden = true;
             explore_2000.textContent = "Explore";
             $(explore_2000).css("background-color", "#284B63");
