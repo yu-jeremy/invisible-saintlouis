@@ -13,10 +13,10 @@ For my part of the project, I sought to do the following:
 
 To do this, I created a website you can visit [here](https://yu-jeremy.github.io/invisible-saintlouis/) that features two timelines; one that catalogs events related to the history of EMASS (1991-2019) and another that documents events related to electronic monitoring (1969-2019). For some of the events, a clickable button labeled 'Explore' allows you to explore the content presented in the event bubble more; either through an outside resource (think a news article or an expanded text bubble). 
 
-### Contact Me
+## Contact Me
 
 Want to contact me to learn more about this project? You can email me at **jeremy.yu.work@gmail.com** or **jeremy.yu@wustl.edu**. Furthermore, you can check out my website at [jeremyu.me](www.jeremyu.me) if you want to take a quick look at some writing I've done in the past. 
 
-### Acknowledgements
+## Acknowledgements
 
 I would like to thank [David Cunningham](https://sociology.wustl.edu/people/david-cunningham), [Professor Caitlyn Collins](https://sociology.wustl.edu/people/caitlyn-collins), and [Professor Patty Heyda](https://samfoxschool.wustl.edu/directory/59) for their guidance, knowledge, and leadership throughout my time taking SOC 4930. While us students needed to take ownership of this course, David, Caitlyn, and Patty all helped us through figuring out what our individual projects would look like and provided some structure for us to work within. Thank you also to my fellow classmates who worked with me and presented so many awesome ideas in and out of class. I found myself listening to all of you so much during class and I realized how much I have to learn about how power and inequality manifests here in St. Louis within the criminal justice system. While I was definitely frustrated with where our collective project was going at points in the semester, our final presentation, the practical research skills I got a glimpse of, and the feedback we got from those who came to listen to us present made it evident to me that our work, no matter how foundational/substantial, was and is worthwhile. I would like to thank Ethan Wiseman in particular for the work he's done to look through resources related to the history of electronic monitoring; the blurbs I've written for that timeline are directly from Ethan's part of our overall project (a report on the history of EM). 
