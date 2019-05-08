@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+# In\visible St. Louis: A Digital Timeline 
 
-You can use the [editor on GitHub](https://github.com/yu-jeremy/invisible-saintlouis/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This website is for a course named "In\Visible St. Louis: People, Place and Power in the Divided City" (catalog number SOC 4930) offered through a joint collaboration between the Department of Sociology and Sam Fox School of Design and Visual Arts at Washington University in St. Louis. This collaboration was supported by The Divided City Initiative. You can learn more about The Divided City and the course specified above [here](http://thedividedcity.com/inequality-and-the-city-mapping-the-ecology-of-urban-segregation/). 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Project Overview
 
-### Markdown
+Initially, our collective project for SOC 4930 was always going to come out of a partnership with ArchCity Defenders (learn more about them [here](http://www.archcitydefenders.org/), a nonprofit civil rights law firm located here in St. Louis that seeks to fight for and represent the poor and homeless in court. The nature of the project changed as we progressed through the semester; while our focus was initially on assisting ACD through the creation of some sort of digital map that could help them plot the cases they've handled/are handling, we eventually switched to focus on a specific player within the criminal justice system that ACD had run into before with some of their clients. This player, called [EMASS](https://www.dwi-emass.com/) (Eastern Missouri Alternative Sentencing Services), is a private company that provides pre-trial and post-trial probation services to courts in St. Louis. For the last month and a half of this class, we conducted interviews with clients/contacts referred to us by ACD, compiled field notes, visited EMASS locations in the St. Louis area. All of this was part of our exploration of EMASS, a seemingly mysterious entity that was/is keeping poor people of color trapped within the criminal justice system under the guise of being a company that offers its clients a better future than going to jail. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+For my part of the project, I sought to do the following:
 
-```markdown
-Syntax highlighted code block
+1. Digitize the history of EMASS
+2. Situate EMASS within the broader history of electronic monitoring
 
-# Header 1
-## Header 2
-### Header 3
+To do this, I created a website you can visit [here](https://yu-jeremy.github.io/invisible-saintlouis/) that features two timelines; one that catalogs events related to the history of EMASS (1991-2019) and another that documents events related to electronic monitoring (1969-2019). For some of the events, a clickable button labeled 'Explore' allows you to explore the content presented in the event bubble more; either through an outside resource (think a news article or an expanded text bubble). 
 
-- Bulleted
-- List
+## Contact Me
 
-1. Numbered
-2. List
+Want to contact me to learn more about this project? You can email me at **jeremy.yu.work@gmail.com** or **jeremy.yu@wustl.edu**. Furthermore, you can check out my website at [jeremyu.me](www.jeremyu.me) if you want to take a quick look at some writing I've done in the past. 
 
-**Bold** and _Italic_ and `Code` text
+## Acknowledgements
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yu-jeremy/invisible-saintlouis/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+I would like to thank [David Cunningham](https://sociology.wustl.edu/people/david-cunningham), [Professor Caitlyn Collins](https://sociology.wustl.edu/people/caitlyn-collins), and [Professor Patty Heyda](https://samfoxschool.wustl.edu/directory/59) for their guidance, knowledge, and leadership throughout my time taking SOC 4930. While us students needed to take ownership of this course, David, Caitlyn, and Patty all helped us through figuring out what our individual projects would look like and provided some structure for us to work within. Thank you also to my fellow classmates who worked with me and presented so many awesome ideas in and out of class. I found myself listening to all of you so much during class and I realized how much I have to learn about how power and inequality manifests here in St. Louis within the criminal justice system. While I was definitely frustrated with where our collective project was going at points in the semester, our final presentation, the practical research skills I got a glimpse of, and the feedback we got from those who came to listen to us present made it evident to me that our work, no matter how foundational/substantial, was and is worthwhile. I would like to thank Ethan Wiseman in particular for the work he's done to look through resources related to the history of electronic monitoring; the blurbs I've written for that timeline are directly from Ethan's part of our overall project (a report on the history of EM). 
