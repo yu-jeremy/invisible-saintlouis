@@ -11,11 +11,11 @@ For my part of the project, I sought to do the following:
 1. Digitize the history of EMASS
 2. Situate EMASS within the broader history of electronic monitoring
 
-To do this, I created a website you can visit [here](https://yu-jeremy.github.io/invisible-saintlouis/) that features two timelines; one that catalogs events related to the history of EMASS (1991-2019) and another that documents events related to electronic monitoring (1969-2019). For some of the events, a clickable button labeled 'Explore' allows you to explore the content presented in the event bubble more; either through an outside resource (think a news article or an expanded text bubble). 
+To do this, I created a website you can visit [here](https://yu-jeremy.github.io/invisible-saintlouis/) that features two timelines; one that catalogs events related to the history of EMASS (1991-2019) and another that documents events related to electronic monitoring (1969-2019). For some of the events, a clickable button labeled 'Explore' allows you to explore the content presented in the event bubble more; either through an outside resource (think a news article or an expanded text bubble). Note that the website currently has a menu bar at the top; this menu bar indicates possible future directions for this website. Since I was only responsible for a portion of our class project, the possibility of having all of my classmates' work also displayed in a digital format (i.e. on a website) is a direction that is feasible and appealing, in my opinion. Having multiple pages on the menu bar would allow us to move back and forth between different components of the project.
 
 ## Contact Me
 
-Want to contact me to learn more about this project? You can email me at **jeremy.yu.work@gmail.com** or **jeremy.yu@wustl.edu**. Furthermore, you can check out my website at [jeremyu.me](www.jeremyu.me) if you want to take a quick look at some writing I've done in the past. 
+Want to contact me to learn more about this project? You can email me at jeremy.yu.work@gmail.com or jeremy.yu@wustl.edu. Furthermore, you can check out my website at [jeremyu.me](www.jeremyu.me) if you want to take a quick look at some writing I've done in the past. 
 
 ## Acknowledgements
 
