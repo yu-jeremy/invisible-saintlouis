@@ -21,6 +21,8 @@ window.addEventListener('DOMContentLoaded', function () {
 
     var broad_timeline_1997 = document.getElementById("hidden_broad_1997");
     var footer = document.getElementById("footer");
+    var washu_link = document.getElementById("washu_link");
+    var class_link = document.getElementById("class_link");
 
     broad_timeline.hidden = true;
     
@@ -34,6 +36,18 @@ window.addEventListener('DOMContentLoaded', function () {
             $(footer).animate({
                 backgroundColor: "#191919",
                 color: "white"
+            });
+            $(washu_link).css("color", "white");
+            $(washu_link).hover(function() {
+                $(washu_link).css("color", "lightsteelblue");
+            }, function() {
+                $(washu_link).css("color", "white");
+            });
+            $(class_link).css("color", "white");
+            $(class_link).hover(function() {
+                $(class_link).css("color", "lightsteelblue");
+            }, function() {
+                $(class_link).css("color", "white");
             });
             $(situate_btn).animate({
                 backgroundColor: "#153243",
@@ -67,6 +81,18 @@ window.addEventListener('DOMContentLoaded', function () {
 
             emass_timeline.hidden = true;
             broad_timeline.hidden = false;
+            $(washu_link).css("color", "black");
+            $(washu_link).hover(function() {
+                $(washu_link).css("color", "darkblue");
+            }, function() {
+                $(washu_link).css("color", "black");
+            });
+            $(class_link).css("color", "black");
+            $(class_link).hover(function() {
+                $(class_link).css("color", "darkblue");
+            }, function() {
+                $(class_link).css("color", "black");
+            });
             $(footer).css({
                 "background-color": "#F2F4F3",
                 "color": "black"
