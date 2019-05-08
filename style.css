@@ -168,18 +168,8 @@ a {
   text-decoration: none;
 }
 
-#washu_link {
-  color: white;
-  text-decoration: none;
-}
-
 #washu_link:hover {
   color: lightsteelblue;
-  text-decoration: none;
-}
-
-#class_link {
-  color: white;
   text-decoration: none;
 }
 
